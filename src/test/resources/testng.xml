@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+    <test name="Smoke">
+        <classes>
+            <class name="tests.login.LoginTest"/>
+            <class name="tests.product.SearchProductTest"/>
+            <class name="tests.product.FilterProductTest"/>
+            <class name="tests.cart.AddCartTest"/>
+            <class name="tests.checkout.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
