@@ -1,0 +1,4 @@
+username,password,role,active
+standard_user,secret_sauce,customer,true
+locked_out_user,secret_sauce,customer,false
+performance_glitch_user,secret_sauce,customer,true

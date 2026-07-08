@@ -11,6 +11,7 @@
             <class name="tests.product.FilterProductTest"/>
             <class name="tests.cart.AddCartTest"/>
             <class name="tests.checkout.CheckoutTest"/>
+            <class name="tests.filehandling.FileHandlingUtilsTest"/>
         </classes>
     </test>
 </suite>
